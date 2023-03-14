@@ -6,10 +6,11 @@ html
 body
 {
     text-align: center;
-    background-image: url("image.jpg");
+    background-image: url("https://img.freepik.com/free-photo/neutral-tone-abstract-invitation-card_53876-97500.jpg?w=360&t=st=1678787861~exp=1678788461~hmac=ddf4b178837a6bad7c846053fe79fdfbc1e65bb4e3ee5c298f828b653335b6ed");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 90%;
+
     color: white;
 }
 
@@ -22,6 +23,7 @@ body
 {
     font-size: 20px;
     margin: 10px;
+    /* border:2px solid yellow; */
 }
 
 .dateTime input
@@ -29,8 +31,10 @@ body
     font-size: 20px;
     margin: 10px;
     padding: 5px 10px;
-    border: 2px solid black;
-    border-radius: 5px;
+    border: 2px solid #ffdfdd ;
+    background-color: #ffdfdd;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px  #307d7e;
 }
 
 button
@@ -56,8 +60,9 @@ button
 {
     height: 15vw;
     width: 15vw;
+    border-radius: 200px;
     color: black;
-    border-radius: 5px;
+   
     background: transparent;
     text-align: center;
     font-size: 5vw;

@@ -1,6 +1,7 @@
 html
 {
     height: 100%;
+    font-weight: bolder;
 }
 
 body
@@ -9,21 +10,27 @@ body
     background-image: url("https://img.freepik.com/free-photo/neutral-tone-abstract-invitation-card_53876-97500.jpg?w=360&t=st=1678787861~exp=1678788461~hmac=ddf4b178837a6bad7c846053fe79fdfbc1e65bb4e3ee5c298f828b653335b6ed");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 90%;
-
-    color: white;
+    background-size: 100%;
+    color:black;
+}
+table{
+    margin: auto;
+}
+tr, td{
+    text-align: left;
 }
 
 .title
 {
-    font-size: 30px;
+    font-size: 40px;
+    padding:1rem ;
+    border: 1px solid #ffdfdd;
 }
 
-.dateTime p
+.dateTime label
 {
     font-size: 20px;
     margin: 10px;
-    /* border:2px solid yellow; */
 }
 
 .dateTime input
@@ -41,7 +48,10 @@ button
 {
     margin: 20px 5px;
     padding: 5px 10px;
-    border: 2px solid black;
+    font-size: 20px;
+    background-color: #ffdfdd;
+    border: 1px solid #ffdfdd;
+    box-shadow: 3px 3px 3px  #307d7e;
     border-radius: 5px;
 }
 
@@ -58,12 +68,12 @@ button
 
 .innerContainer input
 {
-    height: 15vw;
-    width: 15vw;
+    height: 8vw;
+    width: 8vw;
     border-radius: 200px;
     color: black;
-   
-    background: transparent;
+    background-color: #ffdfdd;
+    /* background: transparent; */
     text-align: center;
-    font-size: 5vw;
+    font-size: 40px;
 }   

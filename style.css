@@ -10,8 +10,9 @@ body
     background-image: url("https://img.freepik.com/free-photo/neutral-tone-abstract-invitation-card_53876-97500.jpg?w=360&t=st=1678787861~exp=1678788461~hmac=ddf4b178837a6bad7c846053fe79fdfbc1e65bb4e3ee5c298f828b653335b6ed");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     color:black;
+
 }
 table{
     margin: auto;
